@@ -19,6 +19,7 @@ namespace cloudCloneTest.Pages
 
         public void OnGet()
         {
+            throw new Exception("afafasf");
             Message = this.configuration["greeting"];
         }
     }
